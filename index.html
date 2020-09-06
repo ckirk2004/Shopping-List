@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shopping List Web App</title>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/index.css" />
+	</head>
+	<body>
+		<div class="form-container">
+			<header>
+				<h1 class="title">Shopping List</h1>
+			</header>
+
+			<form>
+				<input type="text" class="grocery-item-input" />
+				<button class="add-button" type="submit">
+					<i class="fas fa-plus fa-md"></i>
+				</button>
+				<button class="add-button2" type="submit">Add Item</button>
+				<!-- ***WIP*** -->
+				<!-- <div class="select">
+				<select name="groceries" class="filter">
+					<option value="all">All</option>
+					<option value="completed">Completed</option>
+					<option value="incomplete">Incomplete</option>
+				</select>
+			</div> -->
+			</form>
+		</div>
+		<div class="list-container">
+			<div class="grocery-list">
+				<ul class="grocery-list-items"></ul>
+			</div>
+		</div>
+		<script src="/app.js"></script>
+	</body>
+</html>
